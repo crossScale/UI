@@ -1,15 +1,15 @@
 {
   "mycustomchain": {
-    "chainId": 1234,
-    "name": "mycustomchain",
-    "displayName": "My Chain",
-    "nativeToken": { "name": "Ether", "symbol": "ETH", "decimals": 18 },
-    "publicRpcUrls": [{ "http": "https://mycustomchain-rpc.com" }],
+    "chainId": 5001,
+    "name": "mantle testnet",
+    "displayName": "Mantle",
+    "nativeToken": { "name": "Mantle", "symbol": "MNTL", "decimals": 18 },
+    "publicRpcUrls": [{ "http": "https://rpc.testnet.mantle.xyz/" }],
     "blockExplorers": [
       {
-        "name": "MyCustomScan",
-        "url": "https://mycustomchain-scan.com",
-        "apiUrl": "https://api.mycustomchain-scan.com",
+        "name": "mantlescan",
+        "url": "https://explorer.testnet.mantle.xyz",
+        "apiUrl": "https://explorer.testnet.mantle.xyz/api",
         "family": "etherscan"
       }
     ],
@@ -18,6 +18,6 @@
       "reorgPeriod": 1,
       "estimateBlockTime": 10
     },
-    "logoImgSrc": "/logo.svg"
+      "logoImgSrc": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
   }
 }
